@@ -14,8 +14,8 @@
  * 9 * 5 = 45
  * 10 * 5 = 50
  */
-//my solutions
 
+//my solutions
 function multiTable(number) {
     let str = '';
     let result = ''
@@ -34,7 +34,8 @@ function multiTable(n) {
    return [...Array(10)].map((_, i) => `${i + 1} * ${n} = ${n * i + n}`).join('\n');
 
 }
-//oter solutions
+
+//other solutions
 const multiTable = (number) => {
     let table = '';
 
@@ -44,7 +45,7 @@ const multiTable = (number) => {
 
     return table;
 }
-//oter solutions
+//other solutions
 function multiTable(number) {
     let table = '';
     for (let i = 1; i <= 10; i++) {
