@@ -1,6 +1,10 @@
 /**
- * 题目描述：
- Complete the solution so that it reverses all of the words within the string passed in.
+ * 题目描述：Complete the solution so that it reverses all of the words within the string passed in.
+ * 输入一个字符串 反转字符串 
+ * 答：第一想法是可以遍历字符串遇见空格就停止截取 然后将截取的字符串存储到数组里 然后将字符串拼接
+ * 优化：可以用split(' ')方法将 字符串去除空格的部分存储在数组里 然后将数组反转 然后再加入空格
+ * 
+ * 
  */
 function reverseWords(str) {
 

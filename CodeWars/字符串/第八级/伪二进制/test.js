@@ -8,7 +8,8 @@ name + " plays banjo"
 name + " does not play banjo"
  */
 
+//只需要把字符串转换成数组 然后替代数组的元素 然后拼接起来就好了
+
 function fakeBin(x) {
     return ((x.split('')).map(element => element < 5 ? element = 0 : element = 1)).join('')
 }
-console.log(this.fakeBin('55555'))
