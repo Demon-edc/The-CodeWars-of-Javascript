@@ -11,5 +11,9 @@ function removeChar(str) {
     strArr.splice(strArr.length - 1, 1);
     return strArr.join('')
 };
+//
+function removeChar(str) {
+    return str.slice(1, -1);
+};
 console.log(this.removeChar('woshinidie'));
 
